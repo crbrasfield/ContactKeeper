@@ -1,0 +1,22 @@
+<div id='wrapper'>
+    <h2>Enter new contact info below</h2>
+    <p id="caution">Caution: any contacts added will be lost upon page reload</p>
+    <form>
+        <input class="user-input" type="text" ng-model="nameInput" placeholder="Contact Name">
+        <input class="user-input" type="text" ng-model="numberInput" placeholder="Contact Number">
+        <input class="user-input" type="text" ng-model="emailInput" placeholder="Contact Email">
+
+    </form>
+    <button ng-click="save()" class="save-button">Save Contact</button>
+
+    <div ng-repeat="contact in contactlist">
+        <div class="single-contact">
+            <h3>{{contact.name}}</h3>
+            <p>{{contact.number}}</p>
+            <p>{{contact.email}}</p>
+            <div class="singleView" ng-click="detailedView(contact.id)">Detailed View</div>
+        </div>
+    </div>
+
+
+</div>

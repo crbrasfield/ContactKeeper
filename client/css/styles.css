@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+
+#wrapper {
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width: 900px;
+    text-align: center;
+}
+
+#caution {
+    color:white;
+    background-color: lightcoral;
+    border-radius: 5px;
+    padding: 2px;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 450px;
+    text-align: center;
+}
+
+.singleView {
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    color:white;
+}
+
+.single-contact {
+    width:200px;
+    float:left;
+    margin: 5px;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px; black
+}
+
